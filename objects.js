@@ -1,8 +1,7 @@
 var playlist = { Busiswa: 'Midnight Starring' }
 
 function updatePlaylist(obj, name, title) {
-  Object.assign(obj, name, title)
-  return obj
+  return Object.assign({}, obj, name, title)
 }
 
 function removeFromPlaylist(obj, name) {
