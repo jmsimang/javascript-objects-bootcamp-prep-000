@@ -7,6 +7,6 @@ function updatePlaylist(obj, name, title) {
 }
 
 function removeFromPlaylist(obje, name) {
-  delete obje[0]
+  delete obje['name'];
   return obje
 }
